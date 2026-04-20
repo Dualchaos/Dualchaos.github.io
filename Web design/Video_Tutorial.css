@@ -1,0 +1,9 @@
+* {
+    background-color: blue;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+}
+p {
+    display: block;
+}
