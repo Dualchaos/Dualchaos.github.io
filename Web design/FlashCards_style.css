@@ -1,0 +1,47 @@
+@font-face{
+    src: url(chalkboard-se-light.ttf);
+    font-family: chalkboard-se-light;
+}
+@keyframes Slide{
+    from {translate: initial;}
+
+    to {translate: 310px, 0px;}
+}
+
+@keyframes colorText{
+    from {color:green;}
+    to {color:blue;}
+}
+
+p.rdText{
+    font-size: 1.4em;
+    font-weight: bold;
+    animation-name: colorText;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+div{
+    background-color: magenta;
+    height: 135px;
+    width: 285px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: chalkboard-se-light;
+    padding: 15px;
+    margin: 10px;
+}
+div.Ans{
+    transition: all 2s;
+    z-index: 200;
+    margin-left: 25;
+    background-color: aqua;
+}
+div.Ques{
+    position: absolute;
+    z-index: 100;
+}
+div.Ans:hover{
+    margin-left: 450px;
+}
