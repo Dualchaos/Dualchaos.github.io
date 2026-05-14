@@ -1,0 +1,41 @@
+@font-face{
+    src: url(chalkboard-se-light.ttf);
+    font-family: chalkboard-se-light;
+}
+body{
+    background-color: black;
+}
+h1{
+    background-color: black;
+    color:red;
+    border:2px;
+    font-family: chalkboard-se-light;
+    text-align: center;
+    vertical-align: middle;
+}
+div{
+    width: 95%;
+    padding: 15px;
+    font-family: chalkboard-se-light;
+    
+}
+div:nth-of-type(odd){
+    background-color: red;
+    color:black;
+}
+div:nth-of-type(even){
+    background-color: black;
+    color:red;
+    border:2px, solid, red;
+}
+.PageIndex {
+    position: fixed;
+    left: 2px;
+    bottom: 2px;
+    width:100px;
+    height:auto;
+}
+a{
+    display: inline;
+    color: black;
+}
